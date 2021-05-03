@@ -1,0 +1,298 @@
+/***********************
+How select target 
+
+Example 1:
+Html:
+<div id="test" class="navbar-text">;
+
+Css:
+
+id - #test{ 
+}
+
+class - #navbar-text{ 
+}
+
+Example 2:
+Html:
+<div id="test" class="navbar-text">
+<a><p>test</p></a>
+</div>
+
+Css:
+id - #test a{ 
+}
+(a) is selected
+
+class - #navbar-text p{ 
+}
+
+class - #navbar-text p{ 
+}
+(p) is selected
+***********************/
+
+/*
+Css Property:
+https://www.w3schools.com/css/default.asp
+*/
+
+/**************************************
+Homepage start
+**************************************/
+body{
+  background-color: #dedcdc;
+}
+/************
+Header
+************/
+#header-nav{
+	text-decoration: none;
+	background-color: #383333;
+}
+#header-nav{
+  text-decoration: none;
+  text-align: center;
+}
+#nav-start{
+ color: #f7f7f7;
+ margin-right: 0px;
+ padding-left: 5%;
+ font-size: 1.5em;
+
+}
+#nav-mid{
+ color: #f7f7f7;
+ font-size: 1.5em;
+ margin-right: 3%;
+}
+#nav-end {
+ color: #f7f7f7;
+ padding-right: 5%;
+ font-size: 1.5em;
+}
+
+/***********
+Body
+Main content
+************/
+#main{
+  margin-top: 8%;
+  color: #383333;
+}
+img{
+  height: 310px;
+  width: 80%;
+  padding:0px;
+  border: 5px solid #919191;
+}
+#img-tile{
+  height: 320px;
+  width: 80%;
+  padding:0px;
+  margin-right: 0px;
+  text-align: center;
+}
+
+ 
+#map{
+  height: 310px;
+  width: 80%;
+  padding: 0px;
+  border: 5px solid #919191;
+}
+#map-tile{
+  height: 320px;
+  width: 80%;
+  padding:0px;
+  text-align: center;
+}
+/************
+Text
+************/
+#img-tile-text {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+#map-tile-text {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center; 
+}
+
+
+/************
+Footer
+************/
+
+.footer {
+  position: fixed;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #453f3f;
+  text-align: center;
+
+}
+.footer .container{
+  color: white;
+  margin-bottom: 20px;
+}
+
+
+/**************************************
+Homepage end
+**************************************/
+
+
+
+/*Media Queries 
+  If the browser window is smaller, the css will be changed 
+  Example
+  https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+
+*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  /**************************************
+Homepage start
+**************************************/
+/************
+Header
+************/
+
+
+
+/************
+Body
+Main content
+************/
+
+
+
+/************
+Footer
+************/
+
+
+/**************************************
+Homepage end
+**************************************/
+ 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ /**************************************
+Homepage start
+**************************************/
+/************
+Header
+************/
+
+
+
+/************
+Body
+Main content
+************/
+
+
+
+/************
+Footer
+************/
+
+
+/**************************************
+Homepage end
+**************************************/
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ /**************************************
+Homepage start
+**************************************/
+/************
+Header
+************/
+
+
+
+/************
+Body
+Main content
+************/
+
+
+
+/************
+Footer
+************/
+
+
+/**************************************
+Homepage end
+**************************************/
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+ /**************************************
+Homepage start
+**************************************/
+/************
+Header
+************/
+
+
+
+/************
+Body
+Main content
+************/
+
+
+
+/************
+Footer
+************/
+
+
+/**************************************
+Homepage end
+**************************************/
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+ /**************************************
+Homepage start
+**************************************/
+/************
+Header
+************/
+
+
+
+/************
+Body
+Main content
+************/
+
+
+
+/************
+Footer
+************/
+
+
+/**************************************
+Homepage end
+**************************************/
+}
