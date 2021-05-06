@@ -1,0 +1,303 @@
+/***********************
+How select target 
+
+Example 1:
+Html:
+<div id="test" class="navbar-text">;
+
+Css:
+
+id - #test{ 
+}
+
+class - #navbar-text{ 
+}
+
+Example 2:
+Html:
+<div id="test" class="navbar-text">
+<a><p>test</p></a>
+</div>
+
+Css:
+id - #test a{ 
+}
+(a) is selected
+
+class - #navbar-text p{ 
+}
+
+class - #navbar-text p{ 
+}
+(p) is selected
+***********************/
+
+/*
+Css Property:
+https://www.w3schools.com/css/default.asp
+*/
+
+/**************************************
+Homepage start
+**************************************/
+body{
+
+}
+/************
+Header
+************/
+#header-nav{
+	text-decoration: none;
+  text-align: center;
+	background-color: #383333;
+}
+#nav-start{
+ color: #f7f7f7;
+ margin-right: 0px;
+ padding-left: 5%;
+ font-size: 1.5em;
+ }
+#nav-start:hover { 
+  color: #b8e6c3; 
+}
+#nav-mid{
+ color: #f7f7f7;
+ font-size: 1.5em;
+ margin-right: 4%;
+ text-decoration: none;
+}
+#nav-mid:hover { 
+  color: #b8e6c3; 
+}
+#nav-end {
+ color: #a0dedc;
+ padding-right: 5%;
+ font-style: italic;
+ font-size: 1.5em;
+}
+
+/***********
+Body
+Main content
+************/
+
+/************
+Footer
+************/
+
+.footer {
+  position: fixed;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #453f3f;
+  text-align: center;
+
+}
+.footer .container{
+  color: white;
+  margin-bottom: 20px;
+}
+#footercontainer {
+  margin-top: 12px;
+}
+
+/**************************************
+Homepage end
+**************************************/
+
+
+
+/*Media Queries 
+  If the browser window is smaller, the css will be changed 
+  Example
+  https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+
+*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  /**************************************
+Homepage start
+**************************************/
+/************
+Header
+************/
+
+
+
+/************
+Body
+Main content
+************/
+
+
+/************
+Footer
+************/
+
+
+/**************************************
+Homepage end
+**************************************/
+ 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ /**************************************
+Homepage start
+**************************************/
+/************
+Header
+************/
+#header-nav{
+  height: 50px;
+}
+
+#nav-start{
+  font-size: 1.2em;
+  margin-top: -5px;
+}
+#nav-mid{
+  font-size: 1.2em;
+  margin-top: -5px;
+  margin-right: 5%;
+}
+#nav-end {
+  font-size: 1.2em;
+  margin-top: -5px;
+}
+
+
+/************
+Body
+Main content
+************/
+// SASS Variables.
+$text: #fff;
+$link: #e34234;
+$link-hover: #ba160c;
+$background: #00356B;
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: $background
+}
+
+/************
+Footer
+************/
+
+
+/**************************************
+Homepage end
+**************************************/
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ /**************************************
+Homepage start
+**************************************/
+/************
+Header
+************/
+#nav-start{
+  font-size: 1.1em;
+  margin-top: -5px;
+}
+#nav-mid{
+  font-size: 1.1em;
+  margin-top: -5px;
+}
+#nav-end {
+  font-size: 1.1em;
+  margin-top: -5px;
+}
+
+
+/************
+Body
+Main content
+************/
+
+
+/************
+Footer
+************/
+.footer {
+  height: 40px;
+}
+#footercontainer {
+  margin-top: 8px;
+}
+
+/**************************************
+Homepage end
+**************************************/
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+ /**************************************
+Homepage start
+**************************************/
+/************
+Header
+************/
+
+
+
+/************
+Body
+Main content
+************/
+
+
+
+/************
+Footer
+************/
+
+
+/**************************************
+Homepage end
+**************************************/
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+ /**************************************
+Homepage start
+**************************************/
+/************
+Header
+************/
+
+
+
+/************
+Body
+Main content
+************/
+
+
+
+/************
+Footer
+************/
+
+
+/**************************************
+Homepage end
+**************************************/
+}
